@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -8,7 +9,7 @@ import '../../styles/start.css';
 function NavScrollExample() {
   return (
     <div className='nav-container'>
-    <Navbar bg="primary" expand="lg">
+    <Navbar bg="primary" expand="sm">
       <Container fluid>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
