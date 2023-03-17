@@ -1,3 +1,28 @@
-.nav-container{
-    color: white;
+.start-head{
+    text-align: center;
+    margin: 60px;
+}
+
+.nba-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 220px;
+    object-fit: cover;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 450px) {
+    .nba-logo{
+        width: 250px;
+    }    
+}
+
+/* Desktop */
+@media screen and (min-width: 750px) {
+    .nba-logo{
+        width: 310px;
+    }    
 }
