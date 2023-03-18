@@ -12,17 +12,41 @@
     object-fit: cover;
 }
 
+.hgl-head{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.hgl-2022{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 360px;
+    height: 370px;
+    object-fit: cover;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 450px) {
     .nba-logo{
         width: 250px;
     }    
+
+    .hgl-2022{
+        width: 480px;
+        height: 400px;
+    }
 }
 
 /* Desktop */
 @media screen and (min-width: 750px) {
     .nba-logo{
         width: 310px;
+    }
+    .hgl-2022{
+        width: 800px;
+        height: 500px;
     }    
 }
