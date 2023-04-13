@@ -17,6 +17,7 @@ const Start = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
         display="block"
         />
+        <h4 className='get-tickets'>Get the tickets</h4>
         </>
     )
 }
